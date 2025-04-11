@@ -1,0 +1,253 @@
+body{
+	/*background-image es para imagen de fondo*/
+	background-image:url("../Imagenes/fondo2.jpg");
+	/*font-family es para la tipografia de la letra*/
+	font-family:fuente-Popstar;
+	/*-font size es para el tamaño de la letra en pixeles*/
+	font-size:40px;
+	/*color es para el color de las letras*/
+	Color:#bf3416;
+	/*text-align es para alinear el texto*/
+	text-align:center;
+	/*es para letras negritas*/
+	font-weight:boold;
+}
+hr{
+	/*border es para la linea 
+	grosor en pixeles, tipo de linea, color*/
+	border:3px solid #bf3416;
+	/*width es para el ancho de la linea en %*/
+	width:80%;
+	/*border-radius es para egregar una curva al final 
+	de la linea*/
+	border-radius:5px;
+}
+p{
+	/*tamaño de la letra*/
+	font-size:30px;
+	/*alineacion del texto*/
+	text-align:justify;
+	/*interlineado de los renglones*/
+	line-height:1.5;
+	/*espacio entre las letras*/
+	letter-spacing:2px;
+}
+table,tr,td{
+	border:1px solid #2253A2;
+	border-spacing:opx;
+	background-color:#62C3E3;
+	text-align:center;
+	font-size:20px;
+}
+/*clases*/
+.pie{
+	text-align:center;
+	font-size:15px;
+	font-weight:bold;
+	/*background-color:#54ADE3*/
+	/*background-image:linear-gradient(#2477A9,#0A3E5E);*/
+	background-image:radial-gradient(#2477A9,#0A3E5E);
+}
+.sup{
+	text-align:center;
+	font-weight:bold;
+	height:75px;
+	/*background-color:#54ADE3*/
+	/*background-image:linear-gradient(#2477A9,#0A3E5E);*/
+	background-image:radial-gradient(#2477A9,#0A3E5E);
+}
+.titulo{
+	text-align:center;
+	font-size:35px;
+	font-weight:bold;			
+}
+/*carrousel de imagenes*/
+.carrousel{
+	width:600px;
+	margin:auto;
+	box-sizing:border-box;
+	}
+.contecarrousel{
+	width:100%;
+	height:400px;
+	overflow:hidden;
+	box-sizing:border-box;
+	}
+.itemcarrousel{
+		position:relative;
+		width:100%;
+		height:100%;
+		box-sizing:border-box;
+	}
+	.itemcarrouseltarjeta{
+		width:100%;
+		height:100%;
+		box-sizing:border-box;
+	}
+	.itemcarrouselarrows{
+		position:absolute;
+		top:0;
+		bottom:0;
+		left:0;
+		right:0;
+		height:100%;
+		width:100%;
+		display:flex;
+		align-items:center;
+		justify-content:space-between;
+		padding:20px;
+		box-sizing:border-box;
+	}
+	.itemcarrouselarrows > i:hover{
+		cursor:pointer
+	}
+	.contecarrouselcontroller >a{
+		text-decoration:none;
+		font-size:32px;
+		color:grey;
+}
+	.itemcorrouselarrows > a > i{
+		color:white;
+	}
+	/*cajas para productos*/
+	.caja{
+			height:300px;
+			width:250px;
+			background:#eee;
+			border:1px solid #eee;
+			margin:5px;
+			color:black;
+			text-align:center;
+			display:inline-block;
+	}
+	.caja:hover{
+		box-shadow:0 0 10px red;
+		transform:scale(1.3);
+	}
+	.caja-texto{
+		padding-top:5px;
+		padding-bottom:5px;
+		font-size:20px;
+		color:black;
+		font-weight:bold;
+		font-family:fuente-Stars_PersonalUseOnly;
+	}
+	.texto-adicional{
+		padding-top:5px;
+		font-size:15px;
+	}
+	.caja2{
+		
+		width:600px;
+		background:#2EA4E8;
+		border:1px solid #2EA4E8;
+		margin:5px;
+		color:black;
+		text-align:center;
+		display:inline-block;
+		font-size:23px;
+		}
+	.caja-texto2{
+	padding-top:5px;
+	padding-bottom:5px;
+	font-size:13px;
+	color:black;
+	font-weight:bold;
+	font-family:fuente-Stars_PersonalUseOnly;
+		}
+	.caja:hover2{
+	box-shadow:0 0 10px red;
+	transform:scale(1.3);
+	}
+	.texto-adiciona2{
+		padding-top:10px;
+		font-size:23px;
+	}
+	/*menu de navegacion*/
+	.navegacion{
+		display:flex;
+		height:100px;
+	}
+	.navegacion-item{
+		flex:1;
+		color:#eee;
+		font-weight:bold;
+		font-size:15px;
+		display:flex;
+		transition:flex-grow 0.2s;
+		justify-content:center;
+		align-items:center;
+	}
+	.navegacion-item:hover{
+		flex-grow:10;
+	}
+	.navegacion-titulo{
+		margin:0;
+		transform:rotate(-90deg);
+		transition:transform 0.2s 0.2s;
+	}
+	.navegacion-item:hover .navegacion-titulo{
+		transform:rotate(0);
+	}
+	.navegacion-item:nth-child(1){
+		background:#2FDFF3;
+	}
+	.navegacion-item:nth-child(2){
+		background:#17CEE4;
+	}
+	.navegacion-item:nth-child(3){
+		background:#23AEBE;
+	}
+	.navegacion-item:nth-child(4){
+		background:#318F9A;
+	}
+	.caja3{
+			height:300px;
+			width:300px;
+			background:#eee;
+			border:1px solid #eee;
+			margin:5px;
+			color:black;
+			text-align:center;
+			display:inline-block;
+	}
+	
+	.caja-texto3{			
+	padding-top:5px;
+	padding-bottom:5px;
+	font-size:15px;
+	color:black;
+	font-weight:bold;
+	font-family:fuente-Stars_PersonalUseOnly;
+	}
+		.caja:hover3{
+	box-shadow:0 0 10px red;
+	transform:scale(1.3);
+	}
+	.texto-adicional3{
+		padding-top:10px;
+		font-size:25px;
+	}
+	/*fuentes y tipografia*/
+	@font-face{
+			font-family:fuente-Popstar;
+			src:url(../Fuentes/Popstar.ttf);
+	}
+	@font-face{
+			font-family:fuente-Stars_PersonalUseOnly;
+			src:url(../Fuentes/Stars_PersonalUseOnly.ttf);
+	}
+	@font-face{
+			font-family:fuente-Chernobyl;
+			src:url(../Fuentes/Chernobyl.otf);
+	}
+	.caja4{
+			height:450px;
+			width:800px;
+			background:#eee;
+			border:1px solid #eee;
+			margin:10px;
+			color:black;
+			text-align:center;
+			display:inline-block;
+			}
